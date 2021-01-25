@@ -1,4 +1,66 @@
-body{
-  background-color: rgb(195, 195, 195)
-  
+body {
+  color: #2e2525; /* dark gray*/
+  background-color: #dac0ca;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bolder;
+}
+
+h2{
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+ul{
+  list-style-type: circle;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:link {
+  color: #6d5388;
+}
+
+a:hover {
+  color: #9a51e6;
+}
+
+a:visited {
+  color: rgb(167, 54, 236)
+}
+
+.nav-bar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display:
+}
+
+.nav-bar li{
+  display: inline;
+  padding: 0px 10px;
+}
+
+.nav-bar li a:link{
+  color: #737443;
+}
+
+.nav-bar li a:hover{
+  color: #a4a658;
+}
+
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #e6bccc;
+  font-size: 20px;
 }
