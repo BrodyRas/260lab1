@@ -1,6 +1,21 @@
 body {
   color: #2e2525; /* dark gray*/
-  background-color: #dac0ca;
+  background-color: #fff6d9;
+}
+
+img{
+  width: 100%;
+  border-radius: 20px;
+}
+
+.title{
+  justify-content: center;
+  align-items: center;
+}
+
+.title h1,
+.title p {
+  text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -8,12 +23,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 3em;
   font-weight: bolder;
 }
 
 h2{
-  font-size: 1.5em;
+  font-size: 2em;
   font-style: italic;
 }
 
@@ -26,27 +41,29 @@ a{
 }
 
 a:link {
-  color: #6d5388;
+  color: #c70039;
 }
 
 a:hover {
-  color: #9a51e6;
+  color: #000;
 }
 
 a:visited {
-  color: rgb(167, 54, 236)
+  color: #c70039;
 }
 
 .nav-bar{
   list-style-type: none;
-  margin: 0;
   padding: 0;
-  display:
+  display: flex;
+  justify-content: center;
+  margin: auto;
 }
 
 .nav-bar li{
   display: inline;
   padding: 0px 10px;
+  text-decoration: underline;
 }
 
 .nav-bar li a:link{
@@ -61,6 +78,34 @@ div.sticky {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  background-color: #e6bccc;
-  font-size: 20px;
+  background-color: #ffde70;
+  font-size: 1.1em;
+  height: 30px;
+  padding-top: 5px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.page{
+  background-color: #ffeaa3;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* DESKTOP */
+@media only screen and (min-width: 900px){
+  .page{
+    width: 900px;
+    margin: 0 auto;
+  }
+}
+
+/* TABLET */
+@media only screen and (max-width: 800px){
+
+}
+
+/* SMART PHONES */
+@media only screen and (max-width: 500px){
+
 }
