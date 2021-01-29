@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  border: 0;
+}
+
 body {
   color: #2e2525; /* dark gray*/
   background-color: #fff6d9;
@@ -6,6 +11,7 @@ body {
 img{
   width: 100%;
   border-radius: 20px;
+  margin: 10px 0;
 }
 
 .title{
@@ -23,8 +29,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 5em;
   font-weight: bolder;
+}
+
+.title p{
+  font-size: 1.3em;
+  font-style: italic;
+  color: rgb(155, 155, 155);
 }
 
 h2{
@@ -57,6 +69,7 @@ a:visited {
   padding: 0;
   display: flex;
   justify-content: center;
+  background-color: #;
   margin: auto;
 }
 
@@ -82,7 +95,6 @@ div.sticky {
   font-size: 1.1em;
   height: 30px;
   padding-top: 5px;
-  border-radius: 5px;
   margin-bottom: 10px;
 }
 
